@@ -8,7 +8,7 @@
 **Repository:** [https://github.com/cdasadiya/claude-api-playground](https://github.com/cdasadiya/claude-api-playground)  
 **LinkedIn:** [https://www.linkedin.com/in/chaitanya-dasadiya](https://www.linkedin.com/in/chaitanya-dasadiya)
 
-A production-oriented learning repository inspired by Real Python's Claude API tutorial, expanded with architecture, reliability, testing, and deployment workflows.
+A production-oriented learning repository focused on architecture, reliability, testing, and deployment workflows.
 
 ## 📚 Table of Contents
 
@@ -349,13 +349,11 @@ See [Anthropic Pricing](https://www.anthropic.com/pricing) for current rates.
 - [Anthropic Documentation](https://docs.anthropic.com/)
 - [Claude API Reference](https://docs.anthropic.com/claude/reference/)
 - [Python SDK Repository](https://github.com/anthropics/anthropic-sdk-python)
-- [Real Python Claude API Tutorial](https://realpython.com/)
 - [Prompt Engineering Guide](https://docs.anthropic.com/claude/docs/prompt-engineering)
 
 ## 🙏 Acknowledgments
 
 This project is inspired by and builds upon:
-- Real Python's comprehensive Claude API tutorial
 - Anthropic's official documentation and SDKs
 - Community best practices and patterns
 
