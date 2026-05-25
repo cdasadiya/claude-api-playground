@@ -1,21 +1,19 @@
-"""Example 04: 04_system_prompts."""
+"""Example 04: Use system prompts for behavior control."""
 from __future__ import annotations
 
 import typer
 from rich import print
+
 from claude_api_python.client import ClaudeService
 from claude_api_python.config import Settings
+from claude_api_python.logging_utils import setup_logging
 
-
-def main(prompt: str = "Explain this example briefly") -> None:
-    """Run example 04."""
-    settings = Settings()
-    service = ClaudeService(settings)
-    if 4 == 1:
-        print("Set ANTHROPIC_API_KEY and install dependencies.")
-        return
-    reply = service.ask(prompt=prompt, system="You are a helpful Python assistant.")
-    print(reply)
+def main(prompt: str = "Explain system prompts in Python with one practical tip.") -> None:
+    """Use system prompts for behavior control."""
+    setup_logging()
+    service = ClaudeService(Settings())
+    response = service.ask(prompt=prompt, system="You are a precise Python tutor.")
+    print(response)
 
 
 if __name__ == "__main__":

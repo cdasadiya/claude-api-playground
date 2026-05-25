@@ -1,21 +1,19 @@
-"""Example 21: 21_agentic_workflows."""
+"""Example 21: Simple planner/executor agent loop."""
 from __future__ import annotations
 
 import typer
 from rich import print
+
 from claude_api_python.client import ClaudeService
 from claude_api_python.config import Settings
+from claude_api_python.logging_utils import setup_logging
 
-
-def main(prompt: str = "Explain this example briefly") -> None:
-    """Run example 21."""
-    settings = Settings()
-    service = ClaudeService(settings)
-    if 21 == 1:
-        print("Set ANTHROPIC_API_KEY and install dependencies.")
-        return
-    reply = service.ask(prompt=prompt, system="You are a helpful Python assistant.")
-    print(reply)
+def main(prompt: str = "Explain agentic workflows in Python with one practical tip.") -> None:
+    """Simple planner/executor agent loop."""
+    setup_logging()
+    service = ClaudeService(Settings())
+    response = service.ask(prompt=prompt, system="You are a precise Python tutor.")
+    print(response)
 
 
 if __name__ == "__main__":

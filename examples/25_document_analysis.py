@@ -1,21 +1,19 @@
-"""Example 25: 25_document_analysis."""
+"""Example 25: Analyze long-form business document."""
 from __future__ import annotations
 
 import typer
 from rich import print
+
 from claude_api_python.client import ClaudeService
 from claude_api_python.config import Settings
+from claude_api_python.logging_utils import setup_logging
 
-
-def main(prompt: str = "Explain this example briefly") -> None:
-    """Run example 25."""
-    settings = Settings()
-    service = ClaudeService(settings)
-    if 25 == 1:
-        print("Set ANTHROPIC_API_KEY and install dependencies.")
-        return
-    reply = service.ask(prompt=prompt, system="You are a helpful Python assistant.")
-    print(reply)
+def main(prompt: str = "Explain document analysis in Python with one practical tip.") -> None:
+    """Analyze long-form business document."""
+    setup_logging()
+    service = ClaudeService(Settings())
+    response = service.ask(prompt=prompt, system="You are a precise Python tutor.")
+    print(response)
 
 
 if __name__ == "__main__":
