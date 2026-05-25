@@ -6,7 +6,7 @@
 
 **Author:** Chaitanya Dasadiya  
 **Repository:** [https://github.com/cdasadiya/claude-api-playground](https://github.com/cdasadiya/claude-api-playground)  
-**Email:** c.dasadiya74@gmail.com
+**LinkedIn:** [https://www.linkedin.com/in/chaitanya-dasadiya](https://www.linkedin.com/in/chaitanya-dasadiya)
 
 A production-oriented learning repository inspired by Real Python's Claude API tutorial, expanded with architecture, reliability, testing, and deployment workflows.
 
@@ -369,7 +369,7 @@ For issues, questions, or suggestions:
 
 1. **Check existing issues** on GitHub
 2. **Create a new issue** with detailed information
-3. **Contact the author** at c.dasadiya74@gmail.com
+3. **Contact the author on LinkedIn**: [https://www.linkedin.com/in/chaitanya-dasadiya](https://www.linkedin.com/in/chaitanya-dasadiya)
 
 ---
 
