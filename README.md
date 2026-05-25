@@ -12,19 +12,19 @@ A production-oriented learning repository focused on architecture, reliability, 
 
 ## 📚 Table of Contents
 
-- [Features](#features)
-- [Learning Roadmap](#learning-roadmap)
-- [Quick Start](#quick-start)
-- [Environment Variables](#environment-variables)
-- [Project Structure](#project-structure)
-- [Running Examples](#running-examples)
-- [Testing](#testing)
-- [Docker Deployment](#docker-deployment)
-- [Development Tools](#development-tools)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [Resources](#resources)
-- [License](#license)
+- [Features](#-features)
+- [Learning Roadmap](#-learning-roadmap)
+- [Quick Start](#-quick-start)
+- [Environment Variables](#-environment-variables)
+- [Project Structure](#-project-structure)
+- [Running Examples](#-running-examples)
+- [Testing](#-testing)
+- [Docker Deployment](#-docker-deployment)
+- [Development Tools](#-development-tools)
+- [Troubleshooting](#-troubleshooting)
+- [Contributing](#-contributing)
+- [Resources](#-resources)
+- [License](#-license)
 
 ## ✨ Features
 
