@@ -1,4 +1,9 @@
-"""Example 05: Manage rolling conversation history."""
+"""Example 05: Manage rolling conversation history.
+
+Author: Chaitanya Dasadiya
+Repository: https://github.com/cdasadiya/claude-api-playground
+License: MIT
+"""
 from __future__ import annotations
 
 import typer
@@ -7,6 +12,7 @@ from rich import print
 from claude_api_python.client import ClaudeService
 from claude_api_python.config import Settings
 from claude_api_python.logging_utils import setup_logging
+
 
 def main(prompt: str = "Explain message history in Python with one practical tip.") -> None:
     """Manage rolling conversation history."""

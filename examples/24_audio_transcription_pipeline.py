@@ -1,4 +1,9 @@
-"""Example 24: Audio transcription pipeline scaffolding."""
+"""Example 24: Audio transcription pipeline scaffolding.
+
+Author: Chaitanya Dasadiya
+Repository: https://github.com/cdasadiya/claude-api-playground
+License: MIT
+"""
 from __future__ import annotations
 
 import typer
@@ -7,6 +12,7 @@ from rich import print
 from claude_api_python.client import ClaudeService
 from claude_api_python.config import Settings
 from claude_api_python.logging_utils import setup_logging
+
 
 def main(prompt: str = "Explain audio transcription pipeline in Python with one practical tip.") -> None:
     """Audio transcription pipeline scaffolding."""
